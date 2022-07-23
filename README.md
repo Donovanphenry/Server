@@ -1,0 +1,3 @@
+To run the code, call ./httpserver <port number> --options which will launch the server on the specified port number of the local host where the possible options are the number of threads changed via -N, the frequency of healthchecks changed via -R, the maximum file size allowed to be cached with -m, and/or the maximum number of files to be stored in the cache with -s.
+
+I do not know of any bugs with my program, at least with respect to the specification. I’m pretty happy with how this project turned out, especially considering that I’ve finished almost 2 weeks before it’s even due. My opinion of that may change once the CI/CD tests are released, but, until then, as stated before, there are no known bugs.
